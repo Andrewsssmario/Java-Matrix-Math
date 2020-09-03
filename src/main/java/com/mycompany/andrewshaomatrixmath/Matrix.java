@@ -46,7 +46,7 @@ public class Matrix {
                     valid = true;
                     for (int k=0; k<val.length(); k++){
                         char a = val.charAt(k);
-                        if (!Character.isDigit(a) && a!='-'){
+                        if (!Character.isDigit(a) && val.charAt(0)!='-'){
                             valid = false;
                         }
                     }
